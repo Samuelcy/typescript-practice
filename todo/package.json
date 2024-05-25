@@ -1,0 +1,23 @@
+{
+  "name": "todo-typescript-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuelcy/ToDo-Typescript-Sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samuelcy/ToDo-Typescript-Sample/issues"
+  },
+  "homepage": "https://github.com/Samuelcy/ToDo-Typescript-Sample#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
