@@ -20,4 +20,6 @@ function Greeter({ person }: GreeterProps): JSX.Element {
 //     return <h1 >Hello, {props.person}!</h1>
 // }
 
+
+
 export default Greeter;
