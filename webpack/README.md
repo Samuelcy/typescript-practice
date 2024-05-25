@@ -1,2 +1,2 @@
-# Webpack-Typescript-Sample
+# Webpack Typescript Sample
  
