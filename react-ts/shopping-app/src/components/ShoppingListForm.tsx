@@ -1,16 +1,24 @@
-import React from "react";
+import React, { useRef } from "react";
 
-function ShoppingListForm(): JSX.Element {
+interface ShoppingListFormProps {
+    onAddItem: (item: string) => void;
+}
+
+function ShoppingListForm({ onAddItem }: ShoppingListFormProps): JSX.Element {
+
+    const inputRef = useRef<HTMLInputElement>(null);
     function handleSubmit(e: React.FormEvent) {
         e.preventDefault();
-        console.log("Submit");
+        const newProduct = inputRef.current!.value;
+        onAddItem("1");
+        inputRef.current!.value="";
     }
-    
+
     return (
-    < form onSubmit={handleSubmit} >
-        <input type="text" placeholder="Product Name" />
-        <button type="submit">Add Item</button>
-    </form >
+        < form onSubmit={handleSubmit} >
+            <input type="text" placeholder="Product Name" ref={inputRef} />
+            <button type="submit">Add Item</button>
+        </form >
     );
 }
 

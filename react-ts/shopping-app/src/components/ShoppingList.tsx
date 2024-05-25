@@ -2,13 +2,6 @@ import React from "react";
 import { library } from "webpack";
 import Item from "../models/item";
 
-
-// interface Item {
-//     id: number;
-//     product: string;
-//     quantity: number;
-// }
-
 interface ShoppingListProps {
     items: Item[];
 }

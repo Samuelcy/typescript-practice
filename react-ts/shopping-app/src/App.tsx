@@ -5,27 +5,16 @@ import Item from "./models/item";
 import ShoppingListForm from "./components/ShoppingListForm";
 
 function App() {
-  // const items = [
-  //   { id: 1, product: "Lemon", quantitiy: 1 },
-  //   { id: 2, product: "Orange", quantitiy: 2 },
-  //   { id: 3, product: "Apple", quantitiy: 3 },
-  // ];
-
-
-
-  interface Item {
-    id: number;
-    product: string;
-    quantity: number;
-  }
-
   const [items, setItems] = useState<Item[]>([])
-
+  const addItem = (product: string) => {
+    console.log("App Component");
+    console.log(product);
+  }
 
   return (
     <div>
       <ShoppingList items={items} />
-      <ShoppingListForm />
+      <ShoppingListForm onAddItem={addItem}/>
     </div >
   );
 }
