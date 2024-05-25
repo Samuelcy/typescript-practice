@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import ShoppingList from './components/ShoppingList';
 import Item from "./models/item";
+import ShoppingListForm from "./components/ShoppingListForm";
 
 function App() {
   // const items = [
@@ -9,6 +10,8 @@ function App() {
   //   { id: 2, product: "Orange", quantitiy: 2 },
   //   { id: 3, product: "Apple", quantitiy: 3 },
   // ];
+
+
 
   interface Item {
     id: number;
@@ -19,7 +22,12 @@ function App() {
   const [items, setItems] = useState<Item[]>([])
 
 
-  return <div>{<ShoppingList items={items} />}</div>
+  return (
+    <div>
+      <ShoppingList items={items} />
+      <ShoppingListForm />
+    </div >
+  );
 }
 
 export default App;
