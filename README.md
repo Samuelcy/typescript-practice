@@ -2,7 +2,7 @@
 
 Welcome to my TypeScript practice repository! This repository contains all the TypeScript code I practiced from the comprehensive course on [Mastering TypeScript](https://www.udemy.com/course/learn-typescript/) and other sources. 
 
-Certificate no: UC-30ca8ab2-b470-42bd-b877-6d2f85d39367
+Certificate no: UC-30ca8ab2-b470-42bd-b877-6d2f85d39367 (5/27/24)
 
 ## Projects
 * [react & typescript input](https://github.com/Samuelcy/typescript-practice/tree/main/react-ts/shopping-app)
