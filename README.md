@@ -1,4 +1,4 @@
-# Sample Typescript Practice
+# Typescript Practice
 
 Welcome to my TypeScript practice repository! This repository contains all the TypeScript code I practiced from the comprehensive course on [Mastering TypeScript](https://www.udemy.com/course/learn-typescript/) and other sources. 
 
