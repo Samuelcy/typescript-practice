@@ -10,15 +10,6 @@ Certificate no: UC-30ca8ab2-b470-42bd-b877-6d2f85d39367 (5/27/24)
 * [todo app](https://github.com/Samuelcy/typescript-practice/tree/main/todo)
 
 ## Course Overview
-Learn TypeScript, the world's fastest-growing programming language, from scratch. This course includes everything you need to know, from basic syntax to integrating TypeScript with Webpack and React.
-- **TypeScript Syntax**: All the ins and outs
-- **Core Features**:
-  - Interfaces
-  - Generics
-  - Classes
-  - Modules
-- **TypeScript and Tooling**:
-  - Integrate with Webpack
-  - Use with ReactJS
+TypeScript is a powerful superset of JavaScript that makes development smoother, safer, and helps you catch errors and avoid bugs early on. TypeScript adds a bunch of useful features to the JavaScript that you know and love. It helps you be a more productive developer and forces you to write better code.
 
 Happy coding!
