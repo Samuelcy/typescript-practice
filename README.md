@@ -5,7 +5,7 @@ Welcome to my TypeScript practice repository! This repository contains all the T
 Certificate no: UC-30ca8ab2-b470-42bd-b877-6d2f85d39367 (5/27/24)
 
 ## Notes / Projects
-* [react & typescript input](https://github.com/Samuelcy/typescript-practice/tree/main/react-ts/shopping-app)
+* [react & typescript shopping input app](https://github.com/Samuelcy/typescript-practice/tree/main/react-ts/shopping-app)
 * [webpack](https://github.com/Samuelcy/typescript-practice/tree/main/webpack)
 * [todo app](https://github.com/Samuelcy/typescript-practice/tree/main/todo)
 
